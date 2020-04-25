@@ -27,24 +27,5 @@
 # end
 
 
-contacts = {
-  "Jon Snow" => {
-    name: "Jon",
-    email: "jon_snow@thewall.we",
-    favorite_ice_cream_flavors: ["chocolate", "vanilla"]  },
-  "Freddy Mercury" => {
-    name: "Freddy",
-    email: "freddy@mercury.com",
-    favorite_ice_cream_flavors: ["strawberry", "cookie dough", "mint chip"]
-  }
-}
-#add ice cream flavor to hash array
 
-contacts["Jon Snow"][:favorite_ice_cream_flavors] << "mint chip"
-
-#add key/value pairs
-hash = {first: "first value!", second: "second value!"}
-hash[:third] = "third value!"
- 
-puts hash
 
